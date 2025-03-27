@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\api\\api.csproj": {}
+    "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\api\\api.csproj": {
+    "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\api\\api.csproj",
+        "projectUniqueName": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\api\\api.csproj",
+        "projectPath": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\api.csproj",
         "packagesPath": "C:\\Users\\ntejd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\api\\obj\\",
+        "outputPath": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,26 @@
           "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.3, )"
             }
