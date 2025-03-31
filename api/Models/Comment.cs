@@ -1,8 +1,9 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System;
+using api.Models;
 
-
-
+namespace api.Models
+{
     public class Comment
     {
         public int Id { get; set; }
@@ -12,3 +13,4 @@ using System;
         public int? StockId { get; set; }
         public Stock? Stock { get; set; }
     }
+}
