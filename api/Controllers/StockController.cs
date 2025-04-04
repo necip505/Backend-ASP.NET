@@ -5,7 +5,8 @@ using System.Linq; // for ToList
 using api.Data; // for ApplicationDBContext
 using Microsoft.EntityFrameworkCore; // for DbContext and DbSet
 using System.Threading.Tasks; // for Task
-
+using api.Dtos.Stock; // for StockDto
+using api.Mappers; // for StockMappers
 
 
 namespace api.Controllers
@@ -23,7 +24,8 @@ namespace api.Controllers
         [HttpGet]
         public IActionResult GetStocks()
         {
-            var stocks = _context.Stock.ToList();
+            var stocks = _context.Stock.ToList().Select(s => s.ToStockDto());
+            
             return Ok(stocks);
         }
         [HttpGet("{id}")]
@@ -34,7 +36,7 @@ namespace api.Controllers
             {
                 return NotFound();
             }
-            return Ok(stock);
+            return Ok(stock.ToStockDto());
         }
     }
 }
