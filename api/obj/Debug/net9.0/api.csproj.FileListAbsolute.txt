@@ -54,12 +54,6 @@ C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\obj\Debug\n
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\obj\Debug\net9.0\staticwebassets\msbuild.api.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\obj\Debug\net9.0\staticwebassets\msbuild.api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\obj\Debug\net9.0\staticwebassets\msbuild.build.api.props
-C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.api.props
-C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.api.props
-C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\obj\Debug\net9.0\staticwebassets.pack.json
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\obj\Debug\net9.0\api.csproj.Up2Date
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\obj\Debug\net9.0\api.dll
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\obj\Debug\net9.0\refint\api.dll
@@ -199,3 +193,5 @@ C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\bin\Debug\n
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
