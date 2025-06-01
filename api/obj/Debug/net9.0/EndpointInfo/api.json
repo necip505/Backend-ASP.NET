@@ -5,6 +5,18 @@
     "version": "v1"
   },
   "paths": {
+    "/api/comments": {
+      "get": {
+        "tags": [
+          "Comment"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/stock": {
       "get": {
         "tags": [

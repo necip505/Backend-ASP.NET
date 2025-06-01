@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "api.Controllers.CommentController",
+    "Method": "GetAll",
+    "RelativePath": "api/comments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "api.Controllers.StockController",
     "Method": "GetAll",
     "RelativePath": "api/stock",
