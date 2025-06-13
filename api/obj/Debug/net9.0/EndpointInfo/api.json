@@ -38,6 +38,119 @@
             "description": "Success"
           }
         }
+      },
+      "put": {
+        "tags": [
+          "Comment"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCommentRequestDto"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCommentRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCommentRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCommentRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Comment"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/comment/{stockId}": {
+      "post": {
+        "tags": [
+          "Comment"
+        ],
+        "parameters": [
+          {
+            "name": "stockId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCommentDto"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCommentDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCommentDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCommentDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
       }
     },
     "/api/stock": {
@@ -178,60 +291,134 @@
   },
   "components": {
     "schemas": {
+      "CreateCommentDto": {
+        "required": [
+          "content",
+          "title"
+        ],
+        "type": "object",
+        "properties": {
+          "title": {
+            "maxLength": 100,
+            "minLength": 5,
+            "type": "string"
+          },
+          "content": {
+            "maxLength": 100,
+            "minLength": 5,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
       "CreateStockRequestDto": {
+        "required": [
+          "companyName",
+          "industry",
+          "lastDiv",
+          "marketCap",
+          "purchase",
+          "symbol"
+        ],
         "type": "object",
         "properties": {
           "symbol": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 10,
+            "minLength": 1,
+            "type": "string"
           },
           "companyName": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 10,
+            "minLength": 1,
+            "type": "string"
           },
           "purchase": {
+            "maximum": 1000000000,
+            "minimum": 1,
             "type": "number",
             "format": "double"
           },
           "lastDiv": {
+            "maximum": 100,
+            "minimum": 0,001,
             "type": "number",
             "format": "double"
           },
           "industry": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 10,
+            "minLength": 1,
+            "type": "string"
           },
           "marketCap": {
+            "maximum": 500000000,
+            "minimum": 1,
             "type": "integer",
             "format": "int64"
           }
         },
         "additionalProperties": false
       },
+      "UpdateCommentRequestDto": {
+        "required": [
+          "content",
+          "title"
+        ],
+        "type": "object",
+        "properties": {
+          "title": {
+            "maxLength": 100,
+            "minLength": 5,
+            "type": "string"
+          },
+          "content": {
+            "maxLength": 100,
+            "minLength": 5,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
       "UpdateStockRequestDto": {
+        "required": [
+          "companyName",
+          "industry",
+          "lastDiv",
+          "marketCap",
+          "purchase",
+          "symbol"
+        ],
         "type": "object",
         "properties": {
           "symbol": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 10,
+            "minLength": 1,
+            "type": "string"
           },
           "companyName": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 10,
+            "minLength": 1,
+            "type": "string"
           },
           "purchase": {
+            "maximum": 1000000000,
+            "minimum": 1,
             "type": "number",
             "format": "double"
           },
           "lastDiv": {
+            "maximum": 100,
+            "minimum": 0,001,
             "type": "number",
             "format": "double"
           },
           "industry": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 10,
+            "minLength": 1,
+            "type": "string"
           },
           "marketCap": {
+            "maximum": 500000000,
+            "minimum": 1,
             "type": "integer",
             "format": "int64"
           }
