@@ -7,7 +7,8 @@ using Microsoft.EntityFrameworkCore; // for DbContext and DbSet
 using System.Threading.Tasks; // for Task
 using api.Dtos.Stock; // for StockDto
 using api.Mappers;
-using api.Interfaces; // for StockMappers
+using api.Interfaces;
+using api.Helpers; // for StockMappers
 
 
 namespace api.Controllers
@@ -24,14 +25,14 @@ namespace api.Controllers
             _context = context;
         }
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] QueryObject query)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
             
-            var stocks = await _stockRepo.GetAllAsync();
+            var stocks = await _stockRepo.GetAllAsync(query);
             var stockDto = stocks.Select(s => s.ToStockDto());
             return Ok(stocks);
         }
