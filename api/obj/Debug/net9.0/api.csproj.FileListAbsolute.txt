@@ -194,7 +194,6 @@ C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\bin\Debug\n
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\obj\Debug\net9.0\staticwebassets.build.json.cache
-C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\bin\Debug\net9.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\bin\Debug\net9.0\Newtonsoft.Json.dll
@@ -206,3 +205,4 @@ C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\bin\Debug\n
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\bin\Debug\net9.0\System.Formats.Asn1.dll
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\bin\Debug\net9.0\System.Text.Json.dll
+C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
