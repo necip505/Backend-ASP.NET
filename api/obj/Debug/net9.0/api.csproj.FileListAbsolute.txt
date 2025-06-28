@@ -206,3 +206,4 @@ C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\bin\Debug\n
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\bin\Debug\net9.0\System.Formats.Asn1.dll
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\bin\Debug\net9.0\System.Text.Json.dll
 C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ntejd\Desktop\.net_hereWeGoAgain\nwayce\Backend-ASP.NET\api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
