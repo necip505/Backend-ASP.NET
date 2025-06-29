@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7DF17FB3-BA77-489F-BB06-606FEFEEC1B6}|api\\api.csproj|c:\\users\\ntejd\\desktop\\.net_herewegoagain\\nwayce\\backend-asp.net\\api\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF17FB3-BA77-489F-BB06-606FEFEEC1B6}|api\\api.csproj|solutionrelative:api\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7DF17FB3-BA77-489F-BB06-606FEFEEC1B6}|api\\api.csproj|c:\\users\\ntejd\\desktop\\.net_herewegoagain\\nwayce\\backend-asp.net\\api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DF17FB3-BA77-489F-BB06-606FEFEEC1B6}|api\\api.csproj|solutionrelative:api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF17FB3-BA77-489F-BB06-606FEFEEC1B6}|api\\api.csproj|c:\\users\\ntejd\\desktop\\.net_herewegoagain\\nwayce\\backend-asp.net\\api\\dtos\\account\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF17FB3-BA77-489F-BB06-606FEFEEC1B6}|api\\api.csproj|solutionrelative:api\\dtos\\account\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7DF17FB3-BA77-489F-BB06-606FEFEEC1B6}|api\\api.csproj|c:\\users\\ntejd\\desktop\\.net_herewegoagain\\nwayce\\backend-asp.net\\api\\dtos\\account\\newuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7DF17FB3-BA77-489F-BB06-606FEFEEC1B6}|api\\api.csproj|c:\\users\\ntejd\\desktop\\.net_herewegoagain\\nwayce\\backend-asp.net\\api\\dtos\\commentt\\updatecommentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DF17FB3-BA77-489F-BB06-606FEFEEC1B6}|api\\api.csproj|solutionrelative:api\\dtos\\commentt\\updatecommentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DF17FB3-BA77-489F-BB06-606FEFEEC1B6}|api\\api.csproj|c:\\users\\ntejd\\desktop\\.net_herewegoagain\\nwayce\\backend-asp.net\\api\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF17FB3-BA77-489F-BB06-606FEFEEC1B6}|api\\api.csproj|solutionrelative:api\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7DF17FB3-BA77-489F-BB06-606FEFEEC1B6}|api\\api.csproj|c:\\users\\ntejd\\desktop\\.net_herewegoagain\\nwayce\\backend-asp.net\\api\\dtos\\account\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -134,20 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NewUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Dtos\\Account\\NewUserDto.cs",
-              "RelativeDocumentMoniker": "api\\Dtos\\Account\\NewUserDto.cs",
-              "ToolTip": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Dtos\\Account\\NewUserDto.cs",
-              "RelativeToolTip": "api\\Dtos\\Account\\NewUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T15:43:57.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Service\\TokenService.cs",
               "RelativeDocumentMoniker": "api\\Service\\TokenService.cs",
@@ -155,12 +146,11 @@
               "RelativeToolTip": "api\\Service\\TokenService.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAtwAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T15:28:35.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T15:28:35.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Interfaces\\ITokenService.cs",
               "RelativeDocumentMoniker": "api\\Interfaces\\ITokenService.cs",
@@ -168,12 +158,11 @@
               "RelativeToolTip": "api\\Interfaces\\ITokenService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T15:27:21.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T15:27:21.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ApplicationDBContext.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Data\\ApplicationDBContext.cs",
               "RelativeDocumentMoniker": "api\\Data\\ApplicationDBContext.cs",
@@ -181,12 +170,11 @@
               "RelativeToolTip": "api\\Data\\ApplicationDBContext.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAA5wBkAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:00:32.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T15:00:32.429Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Program.cs",
               "RelativeDocumentMoniker": "api\\Program.cs",
@@ -194,12 +182,11 @@
               "RelativeToolTip": "api\\Program.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAAAEkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:00:27.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T15:00:27.542Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "UpdateCommentRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Dtos\\Commentt\\UpdateCommentRequestDto.cs",
               "RelativeDocumentMoniker": "api\\Dtos\\Commentt\\UpdateCommentRequestDto.cs",
@@ -211,32 +198,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "api\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Controllers\\AccountController.cs",
               "RelativeToolTip": "api\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAA4wC8AAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T09:36:04.59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "StockController.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Controllers\\StockController.cs",
               "RelativeDocumentMoniker": "api\\Controllers\\StockController.cs",
               "ToolTip": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Controllers\\StockController.cs",
               "RelativeToolTip": "api\\Controllers\\StockController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAcwCMAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwBwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T12:52:28.969Z"
+              "WhenOpened": "2025-05-16T12:52:28.969Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Dtos\\Account\\LoginDto.cs",
+              "RelativeDocumentMoniker": "api\\Dtos\\Account\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Dtos\\Account\\LoginDto.cs",
+              "RelativeToolTip": "api\\Dtos\\Account\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T16:21:36.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Dtos\\Account\\NewUserDto.cs",
+              "RelativeDocumentMoniker": "api\\Dtos\\Account\\NewUserDto.cs",
+              "ToolTip": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Dtos\\Account\\NewUserDto.cs",
+              "RelativeToolTip": "api\\Dtos\\Account\\NewUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:43:57.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\appsettings.json",
               "RelativeDocumentMoniker": "api\\appsettings.json",
@@ -244,12 +257,11 @@
               "RelativeToolTip": "api\\appsettings.json",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-16T13:48:34.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T13:48:34.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Dtos\\Account\\RegisterDto.cs",
               "RelativeDocumentMoniker": "api\\Dtos\\Account\\RegisterDto.cs",
@@ -261,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "IStockRepository.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Interfaces\\IStockRepository.cs",
               "RelativeDocumentMoniker": "api\\Interfaces\\IStockRepository.cs",
@@ -273,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CommentRepository.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Repository\\CommentRepository.cs",
               "RelativeDocumentMoniker": "api\\Repository\\CommentRepository.cs",
@@ -281,12 +293,11 @@
               "RelativeToolTip": "api\\Repository\\CommentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T17:39:42.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T17:39:42.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "api.csproj",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\api.csproj",
               "RelativeDocumentMoniker": "api\\api.csproj",
@@ -298,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "CommentController.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Controllers\\CommentController.cs",
               "RelativeDocumentMoniker": "api\\Controllers\\CommentController.cs",
@@ -310,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "CommentMapper.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Mappers\\CommentMapper.cs",
               "RelativeDocumentMoniker": "api\\Mappers\\CommentMapper.cs",
@@ -322,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "StockRepository.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Repository\\StockRepository.cs",
               "RelativeDocumentMoniker": "api\\Repository\\StockRepository.cs",
@@ -334,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Models\\AppUser.cs",
               "RelativeDocumentMoniker": "api\\Models\\AppUser.cs",
@@ -346,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Models\\Comment.cs",
               "RelativeDocumentMoniker": "api\\Models\\Comment.cs",
@@ -358,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "CreateCommentDto.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Dtos\\Commentt\\CreateCommentDto.cs",
               "RelativeDocumentMoniker": "api\\Dtos\\Commentt\\CreateCommentDto.cs",
@@ -370,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "QueryObject.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Helpers\\QueryObject.cs",
               "RelativeDocumentMoniker": "api\\Helpers\\QueryObject.cs",
@@ -382,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "UpdateStockRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Dtos\\Stock\\UpdateStockRequestDto.cs",
               "RelativeDocumentMoniker": "api\\Dtos\\Stock\\UpdateStockRequestDto.cs",
@@ -394,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "CreateStockRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Dtos\\Stock\\CreateStockRequestDto.cs",
               "RelativeDocumentMoniker": "api\\Dtos\\Stock\\CreateStockRequestDto.cs",
@@ -406,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ICommentRepository.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Interfaces\\ICommentRepository.cs",
               "RelativeDocumentMoniker": "api\\Interfaces\\ICommentRepository.cs",
@@ -418,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "CommentDto.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Dtos\\Commentt\\CommentDto.cs",
               "RelativeDocumentMoniker": "api\\Dtos\\Commentt\\CommentDto.cs",
@@ -430,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Stock.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Models\\Stock.cs",
               "RelativeDocumentMoniker": "api\\Models\\Stock.cs",
@@ -442,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "StockDto.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Dtos\\Stock\\StockDto.cs",
               "RelativeDocumentMoniker": "api\\Dtos\\Stock\\StockDto.cs",
@@ -454,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "StockMappers.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Mappers\\StockMappers.cs",
               "RelativeDocumentMoniker": "api\\Mappers\\StockMappers.cs",
@@ -466,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "20250327201205_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\Migrations\\20250327201205_InitialCreate.cs",
               "RelativeDocumentMoniker": "api\\Migrations\\20250327201205_InitialCreate.cs",
@@ -478,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "api.http",
               "DocumentMoniker": "C:\\Users\\ntejd\\Desktop\\.net_hereWeGoAgain\\nwayce\\Backend-ASP.NET\\api\\api.http",
               "RelativeDocumentMoniker": "api\\api.http",

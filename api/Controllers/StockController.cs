@@ -8,7 +8,8 @@ using System.Threading.Tasks; // for Task
 using api.Dtos.Stock; // for StockDto
 using api.Mappers;
 using api.Interfaces;
-using api.Helpers; // for StockMappers
+using api.Helpers;
+using Microsoft.AspNetCore.Authorization; // for StockMappers
 
 
 namespace api.Controllers
@@ -25,6 +26,7 @@ namespace api.Controllers
             _context = context;
         }
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetAll([FromQuery] QueryObject query)
         {
             if (!ModelState.IsValid)
